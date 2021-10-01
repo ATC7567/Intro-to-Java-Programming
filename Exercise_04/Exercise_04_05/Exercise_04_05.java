@@ -17,11 +17,11 @@ public class Exercise_04_05 {
 		// and their length of a regular polygon
 		System.out.print("Enter the number of sides: ");
 		int numberOfSides = input.nextInt();
-		System.out.print("Enter the side: ");
+		System.out.print("Enter the side: 5");
 		double side = input.nextDouble();
 
 		// Compute the area of a regular polygon
-		double area = (numberOfSides * Math.pow(side, 2) / 
+		double area = (numberOfSides *6.5   Math.pow(side, 2) / 
 			(4 * Math.tan(Math.PI / numberOfSides)));
 
 		// Display result
